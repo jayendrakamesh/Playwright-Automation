@@ -1,0 +1,432 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e7]:
+    - link [ref=e8] [cursor=pointer]:
+      - /url: "javascript: void(0)"
+      - text: Skip to main content
+    - generic [ref=e10]:
+      - button [ref=e12]:
+        - img [ref=e14]
+      - img [ref=e17]:
+        - img [ref=e18]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - img [ref=e26]
+          - combobox [ref=e29]
+        - dialog
+      - list [ref=e30]:
+        - generic [ref=e31]:
+          - listitem [ref=e32] [cursor=pointer]:
+            - button [ref=e33]:
+              - img [ref=e36]
+              - generic [ref=e39]: Inbox
+          - listitem [ref=e40] [cursor=pointer]:
+            - button [ref=e41]:
+              - img [ref=e44]
+              - generic [ref=e47]: Calendar
+          - listitem [ref=e48] [cursor=pointer]:
+            - button [ref=e49]:
+              - img [ref=e52]
+              - generic [ref=e55]: Help
+      - button [ref=e57] [cursor=pointer]:
+        - img [ref=e61] [cursor=pointer]
+    - navigation [ref=e62]:
+      - list [ref=e64]:
+        - listitem [ref=e65]:
+          - generic [ref=e69]:
+            - button [disabled] [ref=e72]:
+              - img [ref=e74]
+            - link [ref=e77] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+              - text: Me
+        - listitem [ref=e78]:
+          - generic [ref=e82]:
+            - button [disabled] [ref=e85]:
+              - img [ref=e87]
+            - link [ref=e90] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+              - text: My team
+        - listitem [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e95]:
+              - button [disabled] [ref=e98]:
+                - img [ref=e100]
+              - link [ref=e103] [cursor=pointer]:
+                - /url: "javascript: void(0)"
+                - text: Expert
+            - list [ref=e104]:
+              - listitem [ref=e105]:
+                - link [ref=e111] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/ce7777bd_7a8d_4cf8_8a0a_beb5e95d9ac4"
+                  - text: People
+              - listitem [ref=e112]:
+                - link [ref=e118] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/161fbf24_dbd2_4fd0_82b8_dc6c0f5c63d6"
+                  - text: Leave and absence
+              - listitem [ref=e119]:
+                - link [ref=e125] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/ca726077_63a2_4081_b114_db078558ec2a"
+                  - text: Recruitment
+              - listitem [ref=e126]:
+                - link [ref=e132] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/64ab499d_8bcd_4fe7_ae48_d6bb5b974afe"
+                  - text: Fleet
+              - listitem [ref=e133]:
+                - link [ref=e139] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/d36520eb_79c7_451b_a472_2fb462602193"
+                  - text: Expenses
+              - listitem [ref=e140]:
+                - link [ref=e146] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/7ad71438_4572_4767_ba62_16249896e084"
+                  - text: Payroll
+              - listitem [ref=e147]:
+                - link [ref=e153] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/1c17ce28_1a52_486f_bbd7_4e6acbdb2a64"
+                  - text: Performance
+              - listitem [ref=e154]:
+                - link [ref=e160] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/86b5e101_dc75_412e_891f_8962a7bd0569"
+                  - text: Learning
+              - listitem [ref=e161]:
+                - link [ref=e167] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/ad5387b8_4fb7_4759_9bf6_c98b347ddfa5"
+                  - text: Timesheets
+              - listitem [ref=e168]:
+                - link [ref=e174] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/c6c392a0_30f8_405b_8952_5cdbd91ab4c0"
+                  - text: Performance
+              - listitem [ref=e175]:
+                - link [ref=e181] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/10f1250e_616a_4e0d_87aa_ad3d69735b1f"
+                  - text: Import
+              - listitem [ref=e182]:
+                - link [ref=e188] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/0979b64a_9e6c_44c7_9d8c_50114b07f0e8"
+                  - text: Organisation
+              - listitem [ref=e189]:
+                - link [ref=e195] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/610ec503_d6cb_477b_b788_adcad6cd8a77"
+                  - text: Documents
+              - listitem [ref=e196]:
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/b4ded312_f703_466d_aaa8_95f9af5ada1d"
+                  - text: Reports & analytics
+        - listitem [ref=e203]:
+          - generic [ref=e207]:
+            - button [disabled] [ref=e210]:
+              - img [ref=e212]
+            - link [ref=e215] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+              - text: System settings
+        - listitem [ref=e216]:
+          - link [ref=e222] [cursor=pointer]:
+            - /url: "#/logout"
+            - text: Log out
+    - generic [ref=e223]:
+      - main [ref=e227]:
+        - generic [ref=e231]:
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - heading [level=1] [ref=e235]: Expert
+              - button [ref=e236] [cursor=pointer]: Check our product walk-throughs
+            - generic [ref=e240]:
+              - button [expanded] [ref=e241] [cursor=pointer]:
+                - text: Actions
+                - generic [ref=e242] [cursor=pointer]: 
+              - menu [ref=e243]:
+                - list [ref=e244]:
+                  - listitem [ref=e245]:
+                    - generic [ref=e247] [cursor=pointer]: Onboarding
+                  - listitem [ref=e248]:
+                    - generic [ref=e250] [cursor=pointer]: Employee offboarding
+                  - listitem [ref=e251]:
+                    - generic [ref=e253] [cursor=pointer]: Import employee profile images
+                  - listitem [ref=e254]:
+                    - generic [ref=e256] [cursor=pointer]: Manager delegations
+                  - listitem [ref=e257]:
+                    - generic [ref=e259] [cursor=pointer]: Re-assign organisation unit
+                  - listitem [ref=e260]:
+                    - generic [ref=e262] [cursor=pointer]: Re-assign subordinates
+          - generic [ref=e269]:
+            - generic [ref=e271]:
+              - button [ref=e272] [cursor=pointer]:
+                - generic [ref=e273] [cursor=pointer]: 
+                - text: Find a person
+              - generic [ref=e274]: Employee code, first name, last name, reference number
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - img [ref=e282]
+                - img [ref=e285]
+                - img [ref=e288]
+              - generic [ref=e289]:
+                - generic [ref=e290]:
+                  - generic [ref=e291]: "250"
+                  - generic [ref=e292]: 
+                - generic [ref=e293]:
+                  - generic [ref=e294]: People
+                  - generic [ref=e295]: Active workforce
+          - list [ref=e301]:
+            - listitem [ref=e302]:
+              - generic [ref=e304]:
+                - generic [ref=e308]:
+                  - heading [level=2] [ref=e310]: Things to do
+                  - generic [ref=e311]:
+                    - generic [ref=e315]:
+                      - generic [ref=e316]:
+                        - text: Tasks
+                        - link [ref=e317] [cursor=pointer]:
+                          - /url: "#"
+                          - text: (0)
+                      - listitem [ref=e319]:
+                        - generic [ref=e320]: You've got no items here at the moment
+                    - list [ref=e324]:
+                      - listitem [ref=e325]:
+                        - generic [ref=e327]:
+                          - generic:
+                            - generic: "0"
+                            - generic:
+                              - generic:
+                                - link:
+                                  - /url: /whrmux/web/expert/onboarding
+                                  - text: Future starter
+                              - generic: Onboarding
+                      - listitem [ref=e328]:
+                        - generic [ref=e330]:
+                          - generic:
+                            - generic: "0"
+                            - generic:
+                              - generic:
+                                - link:
+                                  - /url: /whrmux/web/expert/pending-requests
+                                  - text: Leave request
+                              - generic: Waiting for 7 days or more
+                      - listitem [ref=e331]:
+                        - generic [ref=e332]:
+                          - generic:
+                            - generic:
+                              - generic: "0"
+                              - generic:
+                                - generic:
+                                  - link:
+                                    - /url: /whrmux/web/expert/offboarding
+                                    - text: Leaver
+                                - generic: This month
+                      - listitem [ref=e333]
+                - generic [ref=e339]:
+                  - generic [ref=e342] [cursor=pointer]:
+                    - heading [level=2] [ref=e343] [cursor=pointer]:
+                      - link [ref=e344] [cursor=pointer]:
+                        - /url: /whrmux/web/expert/payroll-dashboard
+                        - text: Payroll
+                    - img [ref=e346] [cursor=pointer]
+                  - list [ref=e349]:
+                    - listitem [ref=e350]:
+                      - generic [ref=e351]:
+                        - generic [ref=e352]: "3"
+                        - link [ref=e354] [cursor=pointer]:
+                          - /url: /whrmux/web/expert/pay-run-overview
+                          - text: Active payruns
+                - generic [ref=e360]:
+                  - generic [ref=e363] [cursor=pointer]:
+                    - heading [level=2] [ref=e364] [cursor=pointer]:
+                      - link [ref=e365] [cursor=pointer]:
+                        - /url: /whrmux/web/expert/leave-absence
+                        - text: Leave and absence
+                    - img [ref=e367] [cursor=pointer]
+                  - list [ref=e370]:
+                    - listitem:
+                      - generic:
+                        - generic: "0"
+                        - generic:
+                          - generic:
+                            - link:
+                              - /url: /whrmux/web/expert/expert.track-sickness
+                              - text: People
+                          - generic: Currently sick
+                    - listitem:
+                      - generic:
+                        - generic: "0"
+                        - generic:
+                          - generic:
+                            - link:
+                              - /url: /whrmux/web/expert/pending-requests
+                              - text: Leave request
+                          - generic: Waiting for 14 days or more
+                - generic [ref=e376]:
+                  - generic [ref=e379] [cursor=pointer]:
+                    - heading [level=2] [ref=e380] [cursor=pointer]:
+                      - link [ref=e381] [cursor=pointer]:
+                        - /url: /whrmux/web/expert/expenses
+                        - text: Expenses
+                    - img [ref=e383] [cursor=pointer]
+                  - list [ref=e386]:
+                    - listitem [ref=e387] [cursor=pointer]:
+                      - generic [ref=e388] [cursor=pointer]:
+                        - generic [ref=e389] [cursor=pointer]: "1"
+                        - link [ref=e391] [cursor=pointer]:
+                          - /url: /whrmux/web/expert/pending-expense-requests
+                          - text: Expense request
+                        - generic [ref=e392] [cursor=pointer]: Waiting for more than 7 days
+                    - listitem [ref=e393] [cursor=pointer]:
+                      - generic [ref=e394] [cursor=pointer]:
+                        - generic [ref=e395] [cursor=pointer]: "1"
+                        - generic [ref=e396] [cursor=pointer]:
+                          - link [ref=e398] [cursor=pointer]:
+                            - /url: /whrmux/web/expert/pending-expense-requests
+                            - text: Expense request
+                          - generic [ref=e399] [cursor=pointer]: Waiting for more than 14 days
+                - generic [ref=e405]:
+                  - generic [ref=e408] [cursor=pointer]:
+                    - heading [level=2] [ref=e409] [cursor=pointer]:
+                      - link [ref=e410] [cursor=pointer]:
+                        - /url: /whrmux/web/expert/performance-dashboard
+                        - text: Performance
+                    - img [ref=e412] [cursor=pointer]
+                  - list [ref=e415]:
+                    - listitem:
+                      - generic:
+                        - generic: "0"
+                        - generic:
+                          - link:
+                            - /url: /whrmux/web/expert/review-cycle-list
+                            - text: Review
+                      - generic: In-progress
+                    - listitem:
+                      - generic:
+                        - generic: "0"
+                        - generic:
+                          - generic:
+                            - link:
+                              - /url: /whrmux/web/expert/company-objectives
+                              - text: Objective
+                          - generic: In-progress
+                - generic [ref=e420]:
+                  - generic [ref=e423] [cursor=pointer]:
+                    - heading [level=2] [ref=e424] [cursor=pointer]:
+                      - link [ref=e425] [cursor=pointer]:
+                        - /url: /whrmux/web/expert/timesheet-home
+                        - text: Timesheets
+                    - img [ref=e427] [cursor=pointer]
+                  - generic [ref=e434]:
+                    - paragraph [ref=e435]: The iHCM timesheet feature enables you to streamline the recording and payment of the hours worked by your employees. You may, of course, want to do this for payroll and billing purposes; however it can also help your organisation to be compliant by recording your employees' working times.
+                    - paragraph [ref=e436]: The iHCM timesheet feature is very flexible, offering many useful configuration options, and the user friendly interface makes it very easy to use.
+                    - button [ref=e439] [cursor=pointer]: Get Started
+                - generic [ref=e451]:
+                  - generic [ref=e454] [cursor=pointer]:
+                    - heading [level=2] [ref=e455] [cursor=pointer]:
+                      - link [ref=e456] [cursor=pointer]:
+                        - /url: https://test.fr.apps.adp.com/en-GB/listing?pl=2640
+                        - text: ADP Marketplace
+                    - img [ref=e458] [cursor=pointer]
+                  - generic [ref=e461]:
+                    - img [ref=e463]
+                    - generic [ref=e465]: Access plug and play solutions that simply and securely integrate with your ADP platform.
+                  - link [ref=e468] [cursor=pointer]:
+                    - /url: https://test.fr.apps.adp.com/en-GB/listing?pl=2640
+                    - generic [ref=e469] [cursor=pointer]: Check out the apps
+                - generic [ref=e475]:
+                  - heading [level=2] [ref=e477]:
+                    - link [ref=e478] [cursor=pointer]:
+                      - /url: /whrmux/web/expert/insights
+                      - text: Insights 
+                  - generic [ref=e479]:
+                    - generic [ref=e481]: ADP Datacloud provides workforce analytics and HR benchmarking to help measure, compare and apply insights uncovered from your iHCM data.
+                    - list [ref=e483]:
+                      - listitem [ref=e484]:
+                        - generic [ref=e485]: 
+                        - generic [ref=e486]: "0"
+                        - generic [ref=e487]: Insights available
+                    - generic [ref=e490]:
+                      - text: Powered by
+                      - link [ref=e491] [cursor=pointer]:
+                        - /url: /adpi/app/common/homePage.xhtml?issetuppagenavigation=False
+                - generic [ref=e496]:
+                  - heading [level=2] [ref=e498]:
+                    - link [ref=e499] [cursor=pointer]:
+                      - /url: /adpi/app/common/homePage.xhtml?issetuppagenavigation=False
+                      - text: DataCloud reports 
+                  - generic [ref=e500]:
+                    - paragraph [ref=e502]: ADP DataCloud is our next generation reporting tool. It hosts a wide range of standard iHCM reports and an easy-to-use report builder.
+                    - alert [ref=e503]:
+                      - img [ref=e507]:
+                        - img [ref=e508]
+                    - link [ref=e515] [cursor=pointer]:
+                      - /url: /adpi/app/common/homePage.xhtml?issetuppagenavigation=False
+                      - generic [ref=e516] [cursor=pointer]: 
+                      - text: DataCloud reports
+                    - generic [ref=e519]:
+                      - text: Powered by
+                      - link [ref=e520] [cursor=pointer]:
+                        - /url: /adpi/app/common/homePage.xhtml?issetuppagenavigation=False
+                - generic [ref=e526]:
+                  - link [ref=e528] [cursor=pointer]:
+                    - /url: /whrmux/web/expert/service-request
+                    - heading [level=2] [ref=e529] [cursor=pointer]: Service requests
+                    - text: 
+                  - list [ref=e530]:
+                    - listitem [ref=e531] [cursor=pointer]:
+                      - generic [ref=e532] [cursor=pointer]:
+                        - generic [ref=e533] [cursor=pointer]: "0"
+                        - generic [ref=e534] [cursor=pointer]: Pending Requestor
+                  - list [ref=e535]:
+                    - listitem [ref=e536] [cursor=pointer]:
+                      - generic [ref=e537] [cursor=pointer]:
+                        - generic [ref=e538] [cursor=pointer]: "0"
+                        - generic [ref=e539] [cursor=pointer]: In Progress
+                  - list [ref=e540]:
+                    - listitem [ref=e541] [cursor=pointer]:
+                      - generic [ref=e542] [cursor=pointer]:
+                        - generic [ref=e543] [cursor=pointer]: "0"
+                        - generic [ref=e544] [cursor=pointer]: Quoted
+                  - list [ref=e545]:
+                    - listitem [ref=e546] [cursor=pointer]:
+                      - generic [ref=e547] [cursor=pointer]:
+                        - generic [ref=e548] [cursor=pointer]: "0"
+                        - generic [ref=e549] [cursor=pointer]: On Hold
+                  - list [ref=e550]:
+                    - listitem [ref=e551] [cursor=pointer]:
+                      - generic [ref=e552] [cursor=pointer]:
+                        - generic [ref=e553] [cursor=pointer]: "0"
+                        - generic [ref=e554] [cursor=pointer]: Resolved
+                  - generic [ref=e555]:
+                    - button [ref=e556] [cursor=pointer]: Create Service Request
+                    - button [ref=e557] [cursor=pointer]:
+                      - generic [ref=e558] [cursor=pointer]: 
+                      - text: eService
+      - contentinfo [ref=e559]:
+        - list [ref=e560]:
+          - listitem [ref=e561] [cursor=pointer]
+          - listitem [ref=e564] [cursor=pointer]
+          - listitem [ref=e567]:
+            - link [ref=e569] [cursor=pointer]:
+              - /url: https://uk.adp.com/web-accessibility-statement.aspx
+              - img [ref=e572] [cursor=pointer]
+        - generic [ref=e578]:
+          - text: iHCM © 2025 ADP
+          - generic [ref=e579]: V-2.0.446.64868
+          - generic [ref=e580]:
+            - text: "| Last login:"
+            - time [ref=e582]: Wed 15 October 2025 13:25
+  - dialog [active] [ref=e585]:
+    - button "Close" [ref=e586] [cursor=pointer]: ×
+    - heading "NEW - iHCM Release" [level=2] [ref=e594]
+    - generic [ref=e596]:
+      - paragraph [ref=e597]: We're excited to share information about the new features in iHCM that will improve your payroll and HR experience.
+      - paragraph [ref=e598]: We've also made changes in our integration solution (MarketPlace).
+      - paragraph [ref=e599]: Links to both the regular iHCM release notes & MarketPlace Integrations changes can be found at the links below and also the usual place within 'User Assistance'
+      - paragraph [ref=e600]: For a deep dive on the enhancements with our expert panelists, watch the recording of our recent webinar below.
+    - generic [ref=e601]:
+      - link "iHCM release notes" [ref=e604] [cursor=pointer]
+      - generic [ref=e605]:
+        - link "MarketPlace release notes" [ref=e607] [cursor=pointer]
+        - link "Webinar recording" [ref=e609] [cursor=pointer]
+      - button "Remind me later" [ref=e612] [cursor=pointer]
+  - button "User Assistance" [ref=e613] [cursor=pointer]:
+    - generic [ref=e615] [cursor=pointer]:
+      - generic [ref=e616] [cursor=pointer]:
+        - generic [ref=e617]: ⋮
+        - text: User Assistance
+      - generic [ref=e618] [cursor=pointer]: 
+```

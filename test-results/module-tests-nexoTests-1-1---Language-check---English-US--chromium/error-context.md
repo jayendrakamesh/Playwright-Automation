@@ -1,0 +1,74 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - main [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button [ref=e10] [cursor=pointer]:
+          - img [ref=e14] [cursor=pointer]
+        - generic [ref=e21]:
+          - button "Languages" [ref=e22] [cursor=pointer]:
+            - generic [ref=e25] [cursor=pointer]:
+              - generic [ref=e26] [cursor=pointer]: Languages
+              - img [ref=e29] [cursor=pointer]
+          - generic:
+            - generic: English (US)
+            - generic: Nederlands (NL)
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - img "ADP Home" [ref=e36]
+            - heading "Welcome to ADP iHCM®" [level=2] [ref=e37]
+          - alert "Something is not right. Please try again later. If problem persists, please contact your administrator." [ref=e40]:
+            - generic [ref=e41]:
+              - img "Error" [ref=e44]:
+                - img [ref=e45]
+              - generic [ref=e50]: Something is not right. Please try again later. If problem persists, please contact your administrator.
+              - button "Close" [ref=e53] [cursor=pointer]:
+                - img [ref=e55] [cursor=pointer]
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - generic [ref=e61]:
+                - generic [ref=e63]: User ID
+                - textbox "User ID" [ref=e65]: EDWARD.D.NEWGATEE
+              - generic [ref=e66]:
+                - checkbox "Remember user ID" [checked] [ref=e67]:
+                  - img [ref=e68]
+                  - generic [ref=e73]: Remember user ID
+                - button [ref=e75] [cursor=pointer]:
+                  - img [ref=e78] [cursor=pointer]
+            - alert "Select this option on your private or personal device. Do not use this option on devices shared with other users in your company." [ref=e83]:
+              - generic [ref=e84]:
+                - img "Warning" [ref=e87]:
+                  - img [ref=e88]
+                - generic [ref=e93]: Select this option on your private or personal device. Do not use this option on devices shared with other users in your company.
+                - button "Close" [ref=e96] [cursor=pointer]:
+                  - img [ref=e98] [cursor=pointer]
+            - generic [active] [ref=e103]:
+              - generic [ref=e105]: Password
+              - textbox "Password" [ref=e107]: New@321
+        - generic [ref=e109]:
+          - button "Need help signing in?" [ref=e112] [cursor=pointer]:
+            - generic [ref=e115] [cursor=pointer]: Need help signing in?
+          - button "Sign in" [ref=e116] [cursor=pointer]:
+            - generic [ref=e120] [cursor=pointer]: Sign in
+  - contentinfo [ref=e121]:
+    - generic [ref=e122]:
+      - button "Privacy" [ref=e124] [cursor=pointer]:
+        - generic [ref=e126] [cursor=pointer]:
+          - generic:
+            - img [ref=e128] [cursor=pointer]
+            - text: Privacy
+      - button "Legal" [ref=e132] [cursor=pointer]:
+        - generic [ref=e134] [cursor=pointer]:
+          - generic:
+            - img [ref=e136] [cursor=pointer]
+            - text: Legal
+      - button "Requirements" [ref=e140] [cursor=pointer]:
+        - generic [ref=e142] [cursor=pointer]:
+          - generic:
+            - img [ref=e144] [cursor=pointer]
+            - text: Requirements
+      - generic [ref=e147]: Copyright © 2000-2025 ADP, Inc. All rights reserved.
+```

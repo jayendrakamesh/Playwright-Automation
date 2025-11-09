@@ -1,0 +1,87 @@
+{
+  "cookies": [
+    {
+      "name": "ak_bmsc",
+      "value": "4A22C268DC2ACA693C6E52109B7A4C6B~000000000000000000000000000000~YAAQz1Q/F/Mb5fSYAQAARDXGKR3SzuOeQG6+shPOO4X7sEE8+LzyJs4faQyuerDuzDg18kDC7LAu5xZZc6+JWd87+IX3r/BekaEe+z5K4s+E+pjbx0jjvirRmwWy9hfSuMy1K33HkcqKwHI6wX9cSP3rRc+QqnG9YswqD4vuPZbd0u0/ircUuvJuT1fVZqu1q15x6XKX9eE81RukwKjRy/jJP1e21oV7PvbitKTN0UVeuZiHzCPtFymjuDFkxS6ZRJjyTexvnmr13Kr/BZtNgG6EbTp1rcxljmxpZpcI9MLkgOSY2BhsYK8n9G2lK1hCs24qnJmEt3JhWA+yKEh33EZAb4GVinqohymyHNdkUsj2ahbyHEJZR1TbuYXUz4QK0UEYOzko+g+YEHmpIyCQIh2bmYFfwcAEB30=",
+      "domain": ".emea.staging.ehc.adp.com",
+      "path": "/",
+      "expires": 1757349679.692775,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "49fb55fa-8ff5-452a-8bcc-d538b5554bf1",
+      "domain": ".adp.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ADPLangLocaleCookie",
+      "value": "en_US",
+      "domain": ".adp.com",
+      "path": "/",
+      "expires": 1791902485.192125,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "BIGipServerVIP-ONLINE-EMEA-STAGING-HTTPS",
+      "value": "!MZ9/5jAwr8sy4zr0IppuMAQrmhb1QNozIVV54FWX+IUgg4MrvoRYGD248wyRisXD4y6K00LnFkLjl/nnNltrqjkSda08OE2pnsi/YAg=",
+      "domain": "online.emea.staging.ehc.adp.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "k8Ksj346",
+      "value": "AyU6ximZAQAA4krzUlKFE3_6fu2uZcKz3jlXLOHNaZ-zEmYLZboUMB7UEF-9AYBNal6uct4VwH8AAEB3AAAAAA|1|1|11ef7796565b2a63f416cfbdd2009b73dc13043b",
+      "domain": ".adp.com",
+      "path": "/",
+      "expires": 1791902484.810187,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sv",
+      "value": "5A1E35AF12A067BF7E24A2BDE5C8E17B~YAAQz1Q/FyMe5fSYAQAAQknGKR1hzW/B4fCJjDKt54BDPtjryOOcU3ti/lWV8xh/a5E1b2EeR8I+51xcHXPEJtXQyiviNtMIrDPGPpX84hhjuHISsyNYoTdcFmkOQ+GPRG9FLfH4yO/Nsb9KkvGz9qgqYhoE/uso2b6/eyg48Uy1Bcvs+Y9yjlEdq0df1HtJlyihv/EWk/bhBoFPsKh8eelZJJrl4eLheDgEHhElfk081qdtawDRYIoTdD4sz3ZKN22cCf9U/VPsX4lU7Z0=~1",
+      "domain": ".emea.staging.ehc.adp.com",
+      "path": "/",
+      "expires": 1757349680.810281,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://online.emea.staging.ehc.adp.com",
+      "localStorage": [
+        {
+          "name": "brand_store_IHCM_default_expiration",
+          "value": "29289046"
+        },
+        {
+          "name": "l_FTzyeq12rr",
+          "value": "17573424821252935206110"
+        },
+        {
+          "name": "lscache-brand_store_IHCM_default",
+          "value": "{\"language\":{\"options\":[\"en_US\",\"nl_NL\"],\"useBrowserIfNoCookie\":true,\"default\":\"en_US\"},\"primaryDisabledColor\":\"#CDC7C2\",\"primaryBtnDisabledColor\":\"#CDC7C2\",\"btnBorderRadius\":\"8px\",\"primaryColor\":\"#3874FA\",\"primaryBtnColor\":\"#324FA5\",\"primaryColorTitleText\":\"#262321\",\"primaryColorContentText\":\"#544F4A\",\"primaryFont\":\"Circular20\",\"primaryColorLinks\":\"#324FA5\",\"secondaryBtnColor\":\"#FFFFFF\",\"background\":{\"default\":\"https://online.emea.staging.ehc.adp.com/api/brand-service/v1/brands/image?productId=$default$&imageId=ADP_default_background.png\"},\"productLogo\":{\"default\":\"https://online.emea.staging.ehc.adp.com/api/brand-service/v1/brands/image?productId=$default$&imageId=productLogo-red.png\",\"alignment\":\"LEFT\"},\"text\":{\"i18n\":{\"en_US\":{\"SIGN_IN_HOME_TITLE\":\"Welcome to ADP iHCM®\"},\"nl_NL\":{\"SIGN_IN_HOME_TITLE\":\"Welkom bij ADP iHCM®\"}}},\"footer\":{\"items\":[{\"order\":0,\"alignment\":\"LEFT\",\"component\":{\"type\":\"LINK_COMPONENT\",\"text\":{\"en_US\":\"Privacy\"},\"url\":{\"en_US\":\"https://privacy.adp.com/privacy.html?locale=en_US\",\"nl_NL\":\"https://privacy.adp.com/privacy.html?locale=nl_NL\"}},\"id\":\"privacy\"},{\"id\":\"legal\",\"alignment\":\"LEFT\",\"order\":1,\"component\":{\"type\":\"LINK_COMPONENT\",\"text\":{\"en_US\":\"Legal\",\"nl_NL\":\"Juridische informatie\"},\"url\":{\"en_US\":\"https://netsecure.adp.com/public/legal/TermsCondition.html\",\"nl_NL\":\"https://netsecure.adp.com/public/legal/TermsCondition_nl_NL.html\"}}},{\"id\":\"requirements\",\"alignment\":\"LEFT\",\"order\":2,\"component\":{\"type\":\"LINK_COMPONENT\",\"text\":{\"en_US\":\"Requirements\",\"nl_NL\":\"Vereisten\"},\"url\":{\"en_US\":\"https://support.adp.com/netsecure/pages/pub/netsrc_login/pilot/common/en_us/empl/netscr/base/logon/netsrc_req.htm\",\"nl_NL\":\"https://support.adp.com/netsecure/pages/pub/netsrc_login/pilot/common/en_us/empl/netscr/base/logon/netsrc_req.htm\"}}},{\"order\":3,\"alignment\":\"RIGHT\",\"component\":{\"type\":\"TEXT_COMPONENT\",\"text\":{\"en_US\":\"Copyright © 2000-2025 ADP, Inc. All rights reserved.\",\"nl_NL\":\"Copyright © 2000-2025 ADP, Inc. Alle rechten voorbehouden.\"}},\"id\":\"copyright\"}]},\"dynMsgEnabled\":false,\"enableLangDropdown\":true,\"olpBrandTitle\":\"iHCM\"}"
+        },
+        {
+          "name": "FTzyeq12rr",
+          "value": "AyU6ximZAQAAd8vMPlz3CVnVMUVxvCPb1bo-WH6fApWRURaU_boUMB7UEF-9AYBNal6uct4VwH8AAEB3AAAAAA=="
+        }
+      ]
+    }
+  ]
+}
