@@ -1,22 +1,22 @@
 export const baseCreds = {
 
     internalUser: {
-        username: "JOYBOY.OG",
+        username: "GIORNO.DC4",
         password: "Test@321"
     },
 
     expertUser: {
-        username: "SSAL.PACINO",
-        password: "Kamesh@321"
+        username: "JOTARO.DC4",
+        password: "Test@321"
     },
 
     mssUser: {
-        username: "RORONOA.ZORO",
-        password: "Kamesh@321"
+        username: "JOLYNE.DC4",
+        password: "Test@321"
     },
 
     essUser: {
-        username: "SANJI",
+        username: "POLNAREFF.DC4",
         password: "Test@321"
     }
 

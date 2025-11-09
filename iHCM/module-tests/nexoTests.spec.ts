@@ -5,6 +5,7 @@ import { NavBar } from "../page-object-models/navBarPom.ts";
 import { OnboardingPages} from "../page-object-models/onboardingPom.ts"
 import { baseCreds } from "../global-data/globalCredentials.js";
 import { text } from "stream/consumers";
+import { TIMEOUT } from "dns";
 
 //Test 0 - Prerequisite to login and save authentication states of users
 test("0 - Login and save authentication states of important users", async ({page}) => {
@@ -67,21 +68,16 @@ test.use({ storageState: './iHCM/global-data/Auth/expertAuth.json' });
 
   test('2.1 - Onboard new user - ', async ({ page }) => {
 
-    await page.goto("https://preprod.ihcm.adp.com/");
     const navBar = new NavBar(page);
     const onboardingPages = new OnboardingPages(page);
     const nexoLoginPage = new NexoLoginPage(page);
 
-    try{
-      nexoLoginPage.closeLoginPopup();
-    }
-    catch{
-
-    }
+    await page.goto("https://preprod.ihcm.adp.com/");
+    await nexoLoginPage.closeLoginPopup();  //Handle closure of popup window //Incomplete
 
     await navBar.menuButton.click();
-    await onboardingPages.actionsMenu.click();
-    await onboardingPages.actionsMenu.locator(':text("Onboarding")');
+    await onboardingPages.actionsMenuButton.click();
+    await onboardingPages.actionsMenuDropdown.getByText("Onboarding").click();
     await onboardingPages.page.locator('add-employee').click();
   });
 });

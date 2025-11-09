@@ -81,7 +81,7 @@ export class NexoLoginPage {
 
     this.errorBanner = page.locator('sdf-alert[status="error"]');
 
-    this.loginPopupCloseButton = page.locator('button:text("pendo")');
+    this.loginPopupCloseButton = page.locator('#walkme-native-functions').contentFrame().locator('button[aria-label="Close"]');
   }
 
   //Function to login as expert user and to save their authentication state
@@ -126,12 +126,12 @@ export class NexoLoginPage {
       await this.page.context().storageState({ path: "./iHCM/global-data/Auth/essAuth.json"});
   };
 
+  //Function to handle closure of login popup window 
   async closeLoginPopup(){
-
-      await this.loginPopupCloseButton.click();
-      
+      if(await this.loginPopupCloseButton.isVisible({timeout:20000}).catch(() => false)){
+        await this.loginPopupCloseButton.click().catch(() => false); //Incomplete
+      }
   };
-
 }
 
 

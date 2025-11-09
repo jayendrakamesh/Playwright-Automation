@@ -6,13 +6,15 @@ export class OnboardingPages {
 
   //Expert home page components
   readonly page: Page
-  readonly actionsMenu: Locator
+  readonly actionsMenuButton: Locator
+  readonly actionsMenuDropdown: Locator
   readonly addEmployeeButton: Locator
 
 
   constructor(page: Page){
     this.page = page 
-    this.actionsMenu = page.getByRole('button', { name: 'Actions'});
+    this.actionsMenuButton = page.getByRole('button', { name: 'Actions'});
+    this.actionsMenuDropdown = page.getByRole('menu');
 
   }
 }
