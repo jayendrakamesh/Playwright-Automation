@@ -8,12 +8,12 @@ import { text } from "stream/consumers";
 import { TIMEOUT } from "dns";
 
 //Test 0 - Prerequisite to login and save authentication states of users
-test("0 - Login and save authentication states of important users", async ({page}) => {
+test("0 - Login and save authentication states of important users", async ({page}) => { 
 
   const nexoLoginPage = new NexoLoginPage(page);
 
   await page.goto("https://preprod.ihcm.adp.com/");
-  nexoLoginPage.expertLogin();
+  await nexoLoginPage.expertLogin();
 
   await page.getByRole('button', { name: 'Show user menu' }).click();
   await page.getByRole('button', { name: 'Log out' }).click();

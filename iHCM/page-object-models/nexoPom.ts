@@ -84,6 +84,21 @@ export class NexoLoginPage {
     this.loginPopupCloseButton = page.locator('#walkme-native-functions').contentFrame().locator('button[aria-label="Close"]');
   }
 
+  //Function to login as internal user and to save their authentication state
+  async internalLogin(){
+
+      await this.userIdField.fill(baseCreds.internalUser.username);
+      await this.userIdField.press('Enter');
+      
+      await this.passwordField.fill(baseCreds.internalUser.password);
+      await this.passwordField.press('Enter');
+      
+      await this.page.getByRole('link', { name: 'Expert', exact: true }).click();
+  
+      await this.page.context().storageState({ path: "./iHCM/global-data/Auth/internalAuth.json"});
+  };
+
+
   //Function to login as expert user and to save their authentication state
   async expertLogin(){
 
@@ -93,7 +108,7 @@ export class NexoLoginPage {
       await this.passwordField.fill(baseCreds.expertUser.password);
       await this.passwordField.press('Enter');
       
-      await this.page.getByRole('link', { name: 'Expert' }).click();
+      await this.page.getByRole('link', { name: 'Expert', exact: true }).click();
   
       await this.page.context().storageState({ path: "./iHCM/global-data/Auth/expertAuth.json"});
   };
