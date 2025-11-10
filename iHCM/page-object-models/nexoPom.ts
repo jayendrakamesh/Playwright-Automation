@@ -85,12 +85,13 @@ export class NexoLoginPage {
   }
 
   //Function to login as internal user and to save their authentication state
-  async internalLogin(){
+  async internalLogin(creds = baseCreds){
 
-      await this.userIdField.fill(baseCreds.internalUser.username);
+
+      await this.userIdField.fill(creds.internalUser.username);
       await this.userIdField.press('Enter');
       
-      await this.passwordField.fill(baseCreds.internalUser.password);
+      await this.passwordField.fill(creds.internalUser.password);
       await this.passwordField.press('Enter');
       
       await this.page.getByRole('link', { name: 'Expert', exact: true }).click();
@@ -100,12 +101,12 @@ export class NexoLoginPage {
 
 
   //Function to login as expert user and to save their authentication state
-  async expertLogin(){
+  async expertLogin(creds = baseCreds){
 
-      await this.userIdField.fill(baseCreds.expertUser.username);
+      await this.userIdField.fill(creds.expertUser.username);
       await this.userIdField.press('Enter');
       
-      await this.passwordField.fill(baseCreds.expertUser.password);
+      await this.passwordField.fill(creds.expertUser.password);
       await this.passwordField.press('Enter');
       
       await this.page.getByRole('link', { name: 'Expert', exact: true }).click();
