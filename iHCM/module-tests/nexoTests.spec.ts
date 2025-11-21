@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 import { chromium } from "playwright-core";
 import { nexoLoginPageTranslations as translations, NexoLoginPage } from "../page-object-models/nexoPom";
 import { NavBar } from "../page-object-models/navBarPom.ts";
-import { OnboardingPages} from "../page-object-models/onboardingPom.ts"
+import { OnboardingBasePages} from "../page-object-models/onboardingPom.ts"
 import { baseCreds } from "../global-data/globalCredentials.js";
 import { text } from "stream/consumers";
 import { TIMEOUT } from "dns";
@@ -69,7 +69,7 @@ test.use({ storageState: './iHCM/global-data/Auth/expertAuth.json' });
   test('2.1 - Onboard new user - ', async ({ page }) => {
 
     const navBar = new NavBar(page);
-    const onboardingPages = new OnboardingPages(page);
+    const onboardingPages = new OnboardingBasePages(page);
     const nexoLoginPage = new NexoLoginPage(page);
 
     await page.goto("https://preprod.ihcm.adp.com/");

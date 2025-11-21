@@ -16,7 +16,7 @@ export default defineConfig({
   testDir: './iHCM',
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
+  retries: 0,
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
@@ -31,7 +31,8 @@ export default defineConfig({
         browserName: 'chromium',
         launchOptions: {
             args: ['--start-maximized'],
-            executablePath: 'C:\\chrome-win\\chrome.exe'
+            executablePath: 'C:\\chrome-win\\chrome.exe',
+            slowMo:1000
         },
         headless: false,
         viewport: null,

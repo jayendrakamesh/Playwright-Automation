@@ -84,6 +84,18 @@ export class NexoLoginPage {
     this.loginPopupCloseButton = page.locator('#walkme-native-functions').contentFrame().locator('button[aria-label="Close"]');
   }
 
+  //Function to login as arc user
+  async arcLogin (creds){
+
+
+      await this.userIdField.fill(creds.arcUser.username);
+      await this.userIdField.press('Enter');
+      
+      await this.passwordField.fill(creds.arcUser.password);
+      await this.passwordField.press('Enter');
+      
+  };
+
   //Function to login as internal user and to save their authentication state
   async internalLogin(creds = baseCreds){
 
@@ -147,7 +159,7 @@ export class NexoLoginPage {
       if(await this.loginPopupCloseButton.isVisible({timeout:20000}).catch(() => false)){
         await this.loginPopupCloseButton.click().catch(() => false); //Incomplete
       }
-  };
+  };  
 }
 
 

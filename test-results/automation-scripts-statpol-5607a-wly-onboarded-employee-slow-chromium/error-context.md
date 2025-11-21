@@ -1,0 +1,253 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e7]:
+    - navigation "Skip to main content":
+      - link "Skip to main content" [ref=e8] [cursor=pointer]:
+        - /url: "javascript: void(0)"
+    - generic [ref=e10]:
+      - button "Close Menu" [expanded] [ref=e12]:
+        - img [ref=e14]
+      - img "ADP Logo" [ref=e17]:
+        - img [ref=e18]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - img [ref=e26]
+          - combobox "App Bar Search" [ref=e29]
+        - dialog "App Bar Search"
+      - list [ref=e30]:
+        - generic [ref=e31]:
+          - generic:
+            - listitem [ref=e32] [cursor=pointer]:
+              - button "Inbox" [ref=e33]:
+                - img [ref=e36]
+                - generic [ref=e39]: Inbox
+            - listitem [ref=e40] [cursor=pointer]:
+              - button "Calendar" [ref=e41]:
+                - img [ref=e44]
+                - generic [ref=e47]: Calendar
+            - listitem [ref=e48] [cursor=pointer]:
+              - button "Help" [ref=e49]:
+                - img [ref=e52]
+                - generic [ref=e55]: Help
+            - listitem [ref=e56] [cursor=pointer]:
+              - button "Directory" [ref=e57]:
+                - img [ref=e60]
+                - generic [ref=e67]: Directory
+        - listitem
+      - button "Show user menu" [ref=e69] [cursor=pointer]:
+        - img "Tony Stark" [ref=e73] [cursor=pointer]
+    - navigation [ref=e74]:
+      - list [ref=e76]:
+        - listitem [ref=e77]:
+          - generic [ref=e81]:
+            - button "Expand Me" [ref=e84]:
+              - img [ref=e86]
+            - link "Me" [ref=e89] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+        - listitem [ref=e90]:
+          - generic [ref=e94]:
+            - button "Expand My team" [ref=e97]:
+              - img [ref=e99]
+            - link "My team" [ref=e102] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+        - listitem [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e107]:
+              - button "Collapse Expert" [ref=e110]:
+                - img [ref=e112]
+              - link "Expert" [ref=e115] [cursor=pointer]:
+                - /url: "javascript: void(0)"
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - link "People" [ref=e123] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/ce7777bd_7a8d_4cf8_8a0a_beb5e95d9ac4"
+              - listitem [ref=e124]:
+                - link "Leave and absence" [ref=e130] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/161fbf24_dbd2_4fd0_82b8_dc6c0f5c63d6"
+              - listitem [ref=e131]:
+                - link "Payroll" [ref=e137] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/24d86470_5952_45b2_b170_96129a07ddaa"
+              - listitem [ref=e138]:
+                - link "Import" [ref=e144] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/10f1250e_616a_4e0d_87aa_ad3d69735b1f"
+              - listitem [ref=e145]:
+                - link "Organisation" [ref=e151] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/0979b64a_9e6c_44c7_9d8c_50114b07f0e8"
+              - listitem [ref=e152]:
+                - link "Documents" [ref=e158] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/610ec503_d6cb_477b_b788_adcad6cd8a77"
+              - listitem [ref=e159]:
+                - link "Reports & analytics" [ref=e165] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/b4ded312_f703_466d_aaa8_95f9af5ada1d"
+              - listitem [ref=e166]:
+                - link "Audit" [ref=e172] [cursor=pointer]:
+                  - /url: "#/70f59912_bf73_4336_b2f4_292115a7d42d/46f2b783_17d7_4c05_8cee_950a297ca6c2"
+        - listitem [ref=e173]:
+          - generic [ref=e177]:
+            - button "Expand System settings" [ref=e180]:
+              - img [ref=e182]
+            - link "System settings" [ref=e185] [cursor=pointer]:
+              - /url: "javascript: void(0)"
+        - listitem [ref=e186]:
+          - link "iHCM Expert" [ref=e192] [cursor=pointer]:
+            - /url: "#/current_gen"
+        - listitem [ref=e193]:
+          - link "Log out" [ref=e199] [cursor=pointer]:
+            - /url: "#/logout"
+    - generic [ref=e200]:
+      - main [ref=e204]:
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - navigation "Breadcrumb" [ref=e209]:
+              - list [ref=e210]:
+                - listitem [ref=e211]:
+                  - button "Expert" [ref=e212] [cursor=pointer]
+                - listitem [ref=e213]:
+                  - text: /
+                  - button "HR actions" [ref=e214] [cursor=pointer]
+                - listitem [ref=e215]:
+                  - text: /
+                  - button "Onboarding" [ref=e216] [cursor=pointer]
+            - generic [ref=e218]:
+              - heading "Onboarding" [level=1] [ref=e219]
+              - button "Onboarding - Local navigation" [ref=e221] [cursor=pointer]:
+                - generic [ref=e222] [cursor=pointer]: 
+          - alert [ref=e223]:
+            - generic [ref=e224]:
+              - img "Warning" [ref=e227]:
+                - img [ref=e228]
+              - generic [ref=e233]: You need to complete all the required information for this employee. Note this excludes onboarding tasks.
+          - generic [ref=e243]:
+            - heading "Vicky Playwright Two Warning Required fields incomplete. Current" [level=2] [ref=e245]:
+              - generic:
+                - generic [ref=e250]:
+                  - heading "Vicky Playwright Two" [level=2] [ref=e251]:
+                    - generic [ref=e253]: Vicky Playwright Two
+                  - paragraph
+                - generic [ref=e255]:
+                  - img "Warning" [ref=e258]:
+                    - img [ref=e259]
+                  - generic [ref=e263]: Required fields incomplete.
+                - generic [ref=e265]:
+                  - generic: Current
+            - generic [ref=e266]:
+              - generic [ref=e270]:
+                - generic [ref=e272]: Onboarded
+                - progressbar "Loading... Please wait" [ref=e274]:
+                  - img [ref=e275]
+              - generic [ref=e280]:
+                - generic [ref=e282]:
+                  - generic [ref=e284]: Job title
+                  - generic [ref=e286]: QA Engg
+                - generic [ref=e288]:
+                  - generic [ref=e290]: Reference number
+                  - generic [ref=e292]: "61909"
+                - generic [ref=e294]:
+                  - generic [ref=e296]: Employee code
+                  - generic [ref=e298]: "61909"
+                - generic [ref=e300]:
+                  - generic [ref=e302]: Hire date
+                  - generic [ref=e304]:
+                    - text: 01 Jan 2025
+                    - text: (324 days ago)
+          - generic [ref=e307]:
+            - group [ref=e309]:
+              - heading " Employee details  Required fields complete but not submitted." [level=2] [ref=e310]:
+                - button " Employee details  Required fields complete but not submitted." [ref=e311] [cursor=pointer]:
+                  - text: 
+                  - generic [ref=e312] [cursor=pointer]: Employee details
+                  - generic [ref=e313] [cursor=pointer]:  Required fields complete but not submitted.
+              - text:          
+            - group [ref=e315]:
+              - heading " Job details  Required fields complete but not submitted." [level=2] [ref=e316]:
+                - button " Job details  Required fields complete but not submitted." [ref=e317] [cursor=pointer]:
+                  - text: 
+                  - generic [ref=e318] [cursor=pointer]: Job details
+                  - generic [ref=e319] [cursor=pointer]:  Required fields complete but not submitted.
+              - text:   
+            - group [ref=e321]:
+              - heading " Address details  Required fields complete but not submitted." [level=2] [ref=e322]:
+                - button " Address details  Required fields complete but not submitted." [ref=e323] [cursor=pointer]:
+                  - text: 
+                  - generic [ref=e324] [cursor=pointer]: Address details
+                  - generic [ref=e325] [cursor=pointer]:  Required fields complete but not submitted.
+            - group [ref=e327]:
+              - heading " Leave and absence policies" [level=2] [ref=e328]:
+                - button " Leave and absence policies" [ref=e329] [cursor=pointer]:
+                  - text: 
+                  - generic [ref=e330] [cursor=pointer]: Leave and absence policies
+            - group [ref=e332]:
+              - heading " Payment Method  Required fields complete but not submitted." [level=2] [ref=e333]:
+                - button " Payment Method  Required fields complete but not submitted." [ref=e334] [cursor=pointer]:
+                  - text: 
+                  - generic [ref=e335] [cursor=pointer]: Payment Method
+                  - generic [ref=e336] [cursor=pointer]:  Required fields complete but not submitted.
+              - text:  
+            - group [ref=e338]:
+              - heading " Pay group assignment  Request submitted." [level=2] [ref=e339]:
+                - button " Pay group assignment  Request submitted." [expanded] [active] [ref=e340] [cursor=pointer]:
+                  - text: 
+                  - generic [ref=e341] [cursor=pointer]: Pay group assignment
+                  - generic [ref=e342] [cursor=pointer]:  Request submitted.
+              - region [ref=e343]:
+                - generic [ref=e351]:
+                  - list [ref=e353]:
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem [ref=e354]:
+                      - generic [ref=e355]:
+                        - generic [ref=e356] [cursor=pointer]:
+                          - generic [ref=e357] [cursor=pointer]: Pay Group
+                          - generic "required" [ref=e358]: "*"
+                        - textbox "Pay Group *" [disabled] [ref=e360]: JSPG02
+                  - list [ref=e362]:
+                    - listitem [ref=e363]:
+                      - generic [ref=e364]:
+                        - generic [ref=e365] [cursor=pointer]:
+                          - generic [ref=e366] [cursor=pointer]: Effective From
+                          - generic "required" [ref=e367]: "*"
+                        - generic [ref=e370]:
+                          - textbox "Effective From *" [disabled] [ref=e371]: 01/01/2025
+                          - generic [ref=e372]:
+                            - button "Select date" [disabled]:
+                              - generic: 
+            - group [ref=e374]:
+              - heading " Tasks" [level=2] [ref=e375]:
+                - button " Tasks" [ref=e376] [cursor=pointer]:
+                  - text: 
+                  - generic [ref=e377] [cursor=pointer]: Tasks
+      - contentinfo [ref=e378]:
+        - list [ref=e379]:
+          - generic:
+            - listitem "How ADP uses cookies" [ref=e380] [cursor=pointer]:
+              - generic [ref=e382] [cursor=pointer]:
+                - generic: How ADP uses cookies
+            - listitem "ADP privacy statement" [ref=e383] [cursor=pointer]:
+              - generic [ref=e385] [cursor=pointer]:
+                - generic: ADP privacy statement
+            - listitem [ref=e386]:
+              - link "ADP accessibility statement" [ref=e388] [cursor=pointer]:
+                - /url: https://uk.adp.com/web-accessibility-statement.aspx
+                - generic [ref=e389] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img [ref=e391] [cursor=pointer]
+                      - text: ADP accessibility statement
+        - generic [ref=e397]:
+          - text: iHCM © 2025 ADP
+          - generic [ref=e398]: V-2.0.463.1885
+          - generic [ref=e399]:
+            - text: "| Last login:"
+            - time [ref=e401]: Fri 21 November 2025 09:35
+  - button "User Assistance" [ref=e402] [cursor=pointer]:
+    - generic [ref=e404] [cursor=pointer]:
+      - generic [ref=e405] [cursor=pointer]:
+        - generic [ref=e406]: ⋮
+        - text: User Assistance
+      - generic [ref=e407] [cursor=pointer]: 
+```

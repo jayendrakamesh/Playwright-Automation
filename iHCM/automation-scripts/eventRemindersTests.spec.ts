@@ -16,6 +16,7 @@ test("0 - Login and save authentication states of important users", async ({page
   await page.getByRole('button', { name: 'Show user menu' }).click();
   await page.getByRole('button', { name: 'Log out' }).click();
 });
+
 //Test 1 - Create Reminder
 test.describe(() => { 
 
