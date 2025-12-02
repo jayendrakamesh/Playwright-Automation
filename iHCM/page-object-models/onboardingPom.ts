@@ -1,7 +1,6 @@
 import { Page } from '@playwright/test';
 import { chromium, Locator } from 'playwright-core';
 import { baseCreds } from '../global-data/globalCredentials.js';
-import { writeNextCount } from '../automation-scripts/dataCounter.js';
 
 export class OnboardingBasePages {
 
@@ -180,9 +179,4 @@ export class OnboardingDetailPages {
   this.submitButton = page.getByRole('button', {name: 'Submit', exact: true});
 
   }
-}
-
-export class OnboardingFunctions{
-
- 
 }

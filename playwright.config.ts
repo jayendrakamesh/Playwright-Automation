@@ -22,6 +22,7 @@ export default defineConfig({
   use: {
     trace: 'on-first-retry',
   },
+  timeout: 720000,
 
   /* Configure projects for major browsers */
   projects: [
@@ -32,7 +33,7 @@ export default defineConfig({
         launchOptions: {
             args: ['--start-maximized'],
             executablePath: 'C:\\chrome-win\\chrome.exe',
-            slowMo:1000
+            slowMo:2000
         },
         headless: false,
         viewport: null,
